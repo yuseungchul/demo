@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-
-	<h1>Main Page</h1>
 	
-	<button onclick="location.href='/one/menu'">One Menu</button>
+	<h1 th:text="${ message }"></h1>
 </body>
 </html>
